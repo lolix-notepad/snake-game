@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>ARCADE GAMES</title>
+    <meta name="description" content="arcade games, a site wher you can find a lot of games">
+
+    <meta property="og:title" content="arcade games, a site wher you can find a lot of games">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="A simple HTML5 Template for new projects.">
+
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzX7KtNJwdf6f-sE2zr9HysxL0Iw-34qcsyvjcbJg&s=0">
+    <link rel="icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzX7KtNJwdf6f-sE2zr9HysxL0Iw-34qcsyvjcbJg&s=0" type="image/svg+xml">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="start-page" class="test">
+        <div class="box-content">
+            <h1>Arcade Games</h1>
+            <button id="btn-start" class="btn btn-confirm">PLAY</button>
+        </div>
+    </div>
+    <div id="snake-view">
+        <div class="game">
+            <h1>Snake Game</h1>
+            <p id="display-score"></p>
+            <p id="display-game-over"></p>
+            <div class="canvas">
+                <div id="cover-game-over"></div>
+                <div id="wrapper-btn-restart-game">
+                    <button id="btn-restart-game" class="btn">
+                        <img id="restart-icon" src="restart-icon.svg" alt="restart game">
+                    </button>
+                </div>
+                <div id="food"></div>
+                <div class="tail"></div>
+            </div>
+            <button id="btn-end" class="btn btn-confirm">exit</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
