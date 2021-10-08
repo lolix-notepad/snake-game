@@ -1,17 +1,17 @@
 /* DOM elements */
 
-const startPage = document.getElementById('start-page');
-const viewSnake = document.getElementById('snake-view');
-const btnStart = document.getElementById('btn-start');
-const btnEnd = document.getElementById('btn-end');
-const snake = document.querySelectorAll('.tail')[0];
-const canvas = document.querySelectorAll('.canvas')[0];
-const food = document.getElementById('food');
-const displayScore = document.getElementById('display-score');
-const displayGameOver = document.getElementById('display-game-over');
-const coverGameOver = document.getElementById('cover-game-over');
-const wrapperRestartBtn = document.getElementById('wrapper-btn-restart-game');
-const btnRestart = document.getElementById('btn-restart-game');
+const  btnEnd             =  document.getElementById('btn-end');
+const  btnRestart         =  document.getElementById('btn-restart-game');
+const  btnStart           =  document.getElementById('btn-start');
+const  canvas             =  document.querySelectorAll('.canvas')[0];
+const  coverGameOver      =  document.getElementById('cover-game-over');
+const  displayGameOver    =  document.getElementById('display-game-over');
+const  displayScore       =  document.getElementById('display-score');
+const  food               =  document.getElementById('food');
+const  snake              =  document.querySelectorAll('.tail')[0];
+const  startPage          =  document.getElementById('start-page');
+const  viewSnake          =  document.getElementById('snake-view');
+const  wrapperRestartBtn  =  document.getElementById('wrapper-btn-restart-game');
 
 /* Global Variables */
 
